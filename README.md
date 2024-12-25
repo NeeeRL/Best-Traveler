@@ -57,8 +57,7 @@ nodemon seever.js
 Best-Travelerの開発において、以下のライブラリ・フレームワークを使用しました。
 
 - Splide.js
-- Lightbox2
-- jQuery（Lightboxに付属）
+- v-viewer
 - Node.js
   - Express.js
   - nodemon（開発用）
