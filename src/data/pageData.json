@@ -64,8 +64,7 @@
         "image": null,
         "body": [
           "プライバシーポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。",
-          "連絡先メールアドレス:example@example.com",
-          "電話番号:000-0000-0000"
+          "連絡先メールアドレス:example@example.com"
         ]
       },
       {
@@ -79,13 +78,14 @@
   },
   {
     "id": 2,
-    "title": "test",
+    "title": "Best-Travelerは，おかげさまでBeta版をリリースすることができました！",
     "contents": [
       {
-        "heading": "testHeading",
+        "heading": "Beta版リリースについての感謝",
         "image": null,
         "body": [
-          "testBody"
+          "皆様のおかげで，Best-Travelerは，無事にBeta版をリリースすることができました。",
+	  "未実装の機能についてもできるだけ早くリリースできるよう尽力いたしますので，これからもよろしくおねがいします！"
         ]
       }
     ]
