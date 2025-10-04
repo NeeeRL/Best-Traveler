@@ -3,7 +3,7 @@
         "id": 1, 
         "name": { 
             "ja": "一関駅前 10番のりば", 
-            "en": "Ichinoseki-Ekimae" 
+            "en": "Ichinoseki-station" 
         }, 
         "link": "IchinosekiEkimae",
         "pictures": [
@@ -39,12 +39,13 @@
             "ja" : ["バスに「平泉巡回バス るんるん」と書いてあっても一関平泉線のバスである可能性があります。ご注意ください。"],
             "en" : ["Please note that even if a bus displays 'Hiraizumi Loop Bus RunRun' there is a possibility that it is the Ichinoseki-Hiraizumi Line."]
         },
+        "sort": false,
         "stopTime": [
             { 
                 "id": 1, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -61,7 +62,7 @@
                 "id": 2, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -78,7 +79,7 @@
                 "id": 3, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -89,13 +90,30 @@
                     "minute": 50
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 3, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 7,
+                    "minute": 50
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 4, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -112,7 +130,7 @@
                 "id": 5, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -129,7 +147,7 @@
                 "id": 6, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -140,13 +158,30 @@
                     "minute": 35
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 6, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 35
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 7, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -163,7 +198,7 @@
                 "id": 8, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -174,13 +209,30 @@
                     "minute": 25
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 8, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 25
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 9, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -197,7 +249,7 @@
                 "id": 10, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -214,7 +266,7 @@
                 "id": 11, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -225,13 +277,30 @@
                     "minute": 25
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 11, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 25
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 12, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -248,7 +317,7 @@
                 "id": 13, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -286,7 +355,7 @@
                 "path": "/stopImg/omachidori-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chudonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -294,12 +363,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             { 
                 "id": 1, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -316,7 +386,7 @@
                 "id": 2, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -347,7 +417,7 @@
                 "id": 4, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -358,7 +428,24 @@
                     "minute": 52
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 4, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 7,
+                    "minute": 52
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 5, 
@@ -392,7 +479,7 @@
                 "id": 7, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -409,7 +496,7 @@
                 "id": 8, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -454,7 +541,7 @@
                 "id": 11, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -465,13 +552,30 @@
                     "minute": 37
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 11, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 37
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 12, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -502,7 +606,7 @@
                 "id": 14, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -513,7 +617,24 @@
                     "minute": 27
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 14, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 27
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 15, 
@@ -533,7 +654,7 @@
                 "id": 16, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -564,7 +685,7 @@
                 "id": 18, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -595,7 +716,7 @@
                 "id": 20, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -606,7 +727,24 @@
                     "minute": 27
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 20, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 27
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 21, 
@@ -626,7 +764,7 @@
                 "id": 22, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -657,7 +795,7 @@
                 "id": 24, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -723,7 +861,7 @@
                 "path": "/stopImg/omachikado-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chudonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -731,12 +869,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             { 
                 "id": 1, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -753,7 +892,7 @@
                 "id": 2, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -784,7 +923,7 @@
                 "id": 4, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -795,7 +934,24 @@
                     "minute": 53
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 4, 
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 7,
+                    "minute": 53
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 5, 
@@ -829,7 +985,7 @@
                 "id": 7, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -846,7 +1002,7 @@
                 "id": 8, 
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -891,7 +1047,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -902,13 +1058,30 @@
                     "minute": 38
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 38
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -939,7 +1112,7 @@
                 "id": 14,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -950,7 +1123,24 @@
                     "minute": 28
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 14,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 28
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 15,
@@ -970,7 +1160,7 @@
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1001,7 +1191,7 @@
                 "id": 18,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1032,7 +1222,7 @@
                 "id": 20,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1043,7 +1233,24 @@
                     "minute": 28
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            { 
+                "id": 20,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 28
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             { 
                 "id": 21,
@@ -1063,7 +1270,7 @@
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1094,7 +1301,7 @@
                 "id": 24,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1160,7 +1367,7 @@
                 "path": "/stopImg/ichinosekiichikomae-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -1168,12 +1375,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1190,7 +1398,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1221,7 +1429,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1232,7 +1440,24 @@
                     "minute": 54
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 7,
+                    "minute": 54
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -1266,7 +1491,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1283,7 +1508,7 @@
                 "id": 8,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1328,7 +1553,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1339,13 +1564,30 @@
                     "minute": 39
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 39
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1376,7 +1618,7 @@
                 "id": 14,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1387,7 +1629,24 @@
                     "minute": 29
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 14,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 29
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 15,
@@ -1407,7 +1666,7 @@
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1438,7 +1697,7 @@
                 "id": 18,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1469,7 +1728,7 @@
                 "id": 20,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1480,7 +1739,24 @@
                     "minute": 29
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 20,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 29
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 21,
@@ -1500,7 +1776,7 @@
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1531,7 +1807,7 @@
                 "id": 24,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1581,17 +1857,28 @@
             "en": "Iwai-Bashi" 
         }, 
         "link": "IwaiBashi",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/iwaibashi.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-temple, and Aeon Maesawa."
+                }
+            }
+        ],
         "comment": {
             "ja" : ["磐井橋の一関駅前方面のバスはすべて通過となります。ご注意ください。"],
             "en" : ["All buses bound for Ichinoseki Station do not stop at this bus stop."]
         },
+        "sort": false,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1608,7 +1895,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1625,7 +1912,7 @@
                 "id": 3,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1636,13 +1923,30 @@
                     "minute": 55
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 7,
+                    "minute": 55
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1659,7 +1963,7 @@
                 "id": 5,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1676,7 +1980,7 @@
                 "id": 6,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1687,13 +1991,30 @@
                     "minute": 40
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 6,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 40
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1710,7 +2031,7 @@
                 "id": 8,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1721,13 +2042,30 @@
                     "minute": 30
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 8,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 30
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1744,7 +2082,7 @@
                 "id": 10,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1761,7 +2099,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1772,13 +2110,30 @@
                     "minute": 30
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 30
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1795,7 +2150,7 @@
                 "id": 13,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1833,7 +2188,7 @@
                 "path": "/stopImg/takeyama-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -1841,12 +2196,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1863,7 +2219,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1894,7 +2250,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -1905,7 +2261,24 @@
                     "minute": 57
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 7,
+                    "minute": 57
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -1939,7 +2312,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -1956,7 +2329,7 @@
                 "id": 8,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2001,7 +2374,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2012,13 +2385,30 @@
                     "minute": 42
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 42
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2049,7 +2439,7 @@
                 "id": 14,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2060,7 +2450,24 @@
                     "minute": 32
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 14,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 32
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 15,
@@ -2080,7 +2487,7 @@
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2125,7 +2532,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2156,7 +2563,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2167,13 +2574,30 @@
                     "minute": 32
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 32
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2218,7 +2642,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2251,7 +2675,7 @@
         "id": 7, 
         "name": { 
             "ja": "配志和神社前", 
-            "en": "Haishiwa-Jinaja-Mae" 
+            "en": "Haishiwa-jinja-Mae" 
         }, 
         "link": "HaishiwaJinjaMae",
         "pictures": [
@@ -2270,7 +2694,7 @@
                 "path": "/stopImg/haishiwajinjamae-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -2278,12 +2702,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2300,7 +2725,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2331,7 +2756,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2342,7 +2767,24 @@
                     "minute": 58
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 7,
+                    "minute": 58
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -2376,7 +2818,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2393,7 +2835,7 @@
                 "id": 8,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2438,7 +2880,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2449,13 +2891,30 @@
                     "minute": 43
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 43
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2486,7 +2945,7 @@
                 "id": 14,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2497,7 +2956,24 @@
                     "minute": 33
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 14,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 33
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 15,
@@ -2517,7 +2993,7 @@
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2562,7 +3038,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2593,7 +3069,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2604,13 +3080,30 @@
                     "minute": 33
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 33
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2655,7 +3148,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2688,7 +3181,7 @@
         "id": 8, 
         "name": { 
             "ja": "山目一丁目", 
-            "en": "Yamame-Ichome" 
+            "en": "Yamanome-Ichome" 
         }, 
         "link": "YamanomeIchome",
         "pictures": [
@@ -2707,7 +3200,7 @@
                 "path": "/stopImg/yamanomeichome-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -2715,12 +3208,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2737,7 +3231,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2768,7 +3262,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2779,7 +3273,24 @@
                     "minute": 59
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 7,
+                    "minute": 59
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -2813,7 +3324,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2830,7 +3341,7 @@
                 "id": 8,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -2875,7 +3386,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2886,7 +3397,24 @@
                     "minute": 44
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 44
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
@@ -2920,7 +3448,7 @@
                 "id": 14,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -2931,7 +3459,24 @@
                     "minute": 34
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 14,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 34
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 15,
@@ -2993,7 +3538,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3024,7 +3569,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3035,13 +3580,30 @@
                     "minute": 34
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 34
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3086,7 +3648,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3138,7 +3700,7 @@
                 "path": "/stopImg/nakasatoshimincentermae-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -3146,12 +3708,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3168,7 +3731,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3199,7 +3762,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3210,7 +3773,24 @@
                     "minute": 0
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 0
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -3230,7 +3810,7 @@
                 "id": 6,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3275,7 +3855,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3306,7 +3886,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3317,13 +3897,30 @@
                     "minute": 45
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 45
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3368,7 +3965,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3379,13 +3976,30 @@
                     "minute": 35
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 35
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3430,7 +4044,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3461,7 +4075,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3472,13 +4086,30 @@
                     "minute": 35
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 35
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3523,7 +4154,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3556,7 +4187,7 @@
         "id": 10, 
         "name": { 
             "ja": "山目駅前", 
-            "en": "Yamame-Ekimae" 
+            "en": "Yamanome-station" 
         }, 
         "link": "YamanomeEkimae",
         "pictures": [
@@ -3575,7 +4206,7 @@
                 "path": "/stopImg/yamanomeekimae-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -3583,12 +4214,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3605,7 +4237,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3636,7 +4268,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3647,7 +4279,24 @@
                     "minute": 1
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 1
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -3681,7 +4330,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3712,7 +4361,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3743,7 +4392,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3754,13 +4403,30 @@
                     "minute": 46
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 46
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3805,7 +4471,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3816,13 +4482,30 @@
                     "minute": 36
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 36
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3867,7 +4550,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3898,7 +4581,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -3909,13 +4592,30 @@
                     "minute": 36
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 36
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -3960,7 +4660,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4012,7 +4712,7 @@
                 "path": "/stopImg/sawadairiguchi-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -4020,12 +4720,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4042,7 +4743,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4073,7 +4774,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4084,7 +4785,24 @@
                     "minute": 1
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 1
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -4118,7 +4836,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4149,7 +4867,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4180,7 +4898,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4191,13 +4909,30 @@
                     "minute": 46
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 46
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4242,7 +4977,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4253,13 +4988,30 @@
                     "minute": 36
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 36
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4304,7 +5056,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4335,7 +5087,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4346,13 +5098,30 @@
                     "minute": 36
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 36
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4397,7 +5166,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4449,7 +5218,7 @@
                 "path": "/stopImg/nakasatoshinmachi-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -4457,12 +5226,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4479,7 +5249,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4510,7 +5280,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4521,7 +5291,24 @@
                     "minute": 2
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 2
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -4555,7 +5342,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4586,7 +5373,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4617,7 +5404,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4628,13 +5415,30 @@
                     "minute": 47
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 47
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4665,7 +5469,7 @@
                 "id": 14,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4676,7 +5480,24 @@
                     "minute": 37
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 14,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 37
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 15,
@@ -4696,7 +5517,7 @@
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4741,7 +5562,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4772,7 +5593,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4783,13 +5604,30 @@
                     "minute": 37
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 37
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4834,7 +5672,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4867,7 +5705,7 @@
         "id": 13, 
         "name": { 
             "ja": "大佐", 
-            "en": "Osa" 
+            "en": "Oosa" 
         }, 
         "link": "Osa" ,
         "pictures": [
@@ -4886,7 +5724,7 @@
                 "path": "/stopImg/osa-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -4894,12 +5732,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4916,7 +5755,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -4947,7 +5786,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -4958,7 +5797,24 @@
                     "minute": 3
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 3
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -4992,7 +5848,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5023,7 +5879,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5054,7 +5910,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5065,13 +5921,30 @@
                     "minute": 48
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 48
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5116,7 +5989,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5127,13 +6000,30 @@
                     "minute": 38
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 38
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5178,7 +6068,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5209,7 +6099,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5220,13 +6110,30 @@
                     "minute": 38
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 38
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5271,7 +6178,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5323,7 +6230,7 @@
                 "path": "/stopImg/kawayashiki-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -5331,12 +6238,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5353,7 +6261,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5384,7 +6292,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5395,7 +6303,24 @@
                     "minute": 4
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 4
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -5429,7 +6354,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5460,7 +6385,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5491,7 +6416,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5502,13 +6427,30 @@
                     "minute": 49
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 49
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5553,7 +6495,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5564,13 +6506,30 @@
                     "minute": 39
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 39
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5615,7 +6574,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5646,7 +6605,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5657,13 +6616,30 @@
                     "minute": 39
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 39
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5708,7 +6684,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5744,17 +6720,37 @@
             "en": "Sano" 
         }, 
         "link": "Sano",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/sano-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/sano-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5771,7 +6767,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5802,7 +6798,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5813,7 +6809,24 @@
                     "minute": 5
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 5
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -5847,7 +6860,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5878,7 +6891,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5909,7 +6922,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5920,13 +6933,30 @@
                     "minute": 50
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 50
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -5971,7 +7001,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -5982,13 +7012,30 @@
                     "minute": 40
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 40
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6033,7 +7080,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6064,7 +7111,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6075,13 +7122,30 @@
                     "minute": 40
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 40
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6126,7 +7190,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6178,7 +7242,7 @@
                 "path": "/stopImg/gion-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -6186,12 +7250,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6208,7 +7273,7 @@
                 "id": 2,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6239,7 +7304,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6250,7 +7315,24 @@
                     "minute": 6
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 6
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -6284,7 +7366,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6315,7 +7397,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6346,7 +7428,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6357,13 +7439,30 @@
                     "minute": 51
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 51
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6408,7 +7507,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6419,13 +7518,30 @@
                     "minute": 41
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 41
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6470,7 +7586,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6501,7 +7617,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6512,13 +7628,30 @@
                     "minute": 41
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 41
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6563,7 +7696,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6596,26 +7729,26 @@
         "id": 17, 
         "name": { 
             "ja": "毛越寺", 
-            "en": "Motsuji" 
+            "en": "Motsuji-Temple" 
         }, 
         "link": "Motsuji",
         "pictures": [
             {
                 "id": 1,
                 "type": "image",
-                "path": "/stopImg/motsuji-up.jpg",
+                "path": "/stopImg/motsuji-1.jpg",
                 "tab": {
-                    "ja": "一関駅前 方面",
-                    "en": "For Ichinoseki sta."
+                    "ja": "毛越寺停留所",
+                    "en": "Motsuji stop"
                 }
             },
             {
                 "id": 2,
                 "type": "image",
-                "path": "/stopImg/motsuji-down.jpg",
+                "path": "/stopImg/motsuji-2.jpg",
                 "tab": {
-                    "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "ja": "毛越寺停留所",
+                    "en": "Motsuji stop"
                 }
             }
         ],
@@ -6623,12 +7756,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6659,7 +7793,7 @@
                 "id": 3,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6676,7 +7810,7 @@
                 "id": 4,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6687,7 +7821,24 @@
                     "minute": 8
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 4,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 8
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 5,
@@ -6721,7 +7872,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6752,7 +7903,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6783,7 +7934,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6794,7 +7945,24 @@
                     "minute": 53
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 53
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
@@ -6814,7 +7982,7 @@
                 "id": 13,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6845,7 +8013,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6856,13 +8024,30 @@
                     "minute": 43
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 43
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6907,7 +8092,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -6938,7 +8123,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -6949,13 +8134,30 @@
                     "minute": 43
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 43
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7000,7 +8202,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7033,7 +8235,7 @@
         "id": 18, 
         "name": { 
             "ja": "平泉駅前", 
-            "en": "Hiraizumi-Ekimae" 
+            "en": "Hiraizumi-station" 
         }, 
         "link": "HiraizumiEkimae",
         "pictures": [
@@ -7052,7 +8254,7 @@
                 "path": "/stopImg/hiraizumiekimae-down.jpg",
                 "tab": {
                     "ja": "中尊寺・イオン前沢 方面",
-                    "en": "For Chusonji, Aeon Maesawa"
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
                 }
             }
         ],
@@ -7060,12 +8262,13 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7096,7 +8299,7 @@
                 "id": 3,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7127,7 +8330,7 @@
                 "id": 5,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7138,7 +8341,24 @@
                     "minute": 10
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 10
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -7158,7 +8378,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7189,7 +8409,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7220,7 +8440,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7231,7 +8451,24 @@
                     "minute": 55
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 55
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
@@ -7251,7 +8488,7 @@
                 "id": 13,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7282,7 +8519,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7293,7 +8530,24 @@
                     "minute": 45
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 45
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
@@ -7313,7 +8567,7 @@
                 "id": 17,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7344,7 +8598,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7375,7 +8629,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7386,7 +8640,24 @@
                     "minute": 45
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 45
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
@@ -7406,7 +8677,7 @@
                 "id": 23,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7437,7 +8708,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7473,17 +8744,37 @@
             "en": "Suzusawa" 
         }, 
         "link": "Suzusawa",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/suzusawa-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/suzusawa-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7514,7 +8805,7 @@
                 "id": 3,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7545,7 +8836,7 @@
                 "id": 5,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7556,7 +8847,24 @@
                     "minute": 12
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 12
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -7576,7 +8884,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7607,7 +8915,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7638,7 +8946,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7649,7 +8957,24 @@
                     "minute": 57
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 57
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
@@ -7669,7 +8994,7 @@
                 "id": 13,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7700,7 +9025,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7711,7 +9036,24 @@
                     "minute": 47
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 47
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
@@ -7731,7 +9073,7 @@
                 "id": 17,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7762,7 +9104,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7793,7 +9135,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7804,7 +9146,24 @@
                     "minute": 47
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 47
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
@@ -7824,7 +9183,7 @@
                 "id": 23,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7855,7 +9214,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7891,17 +9250,37 @@
             "en": "Hanadate" 
         }, 
         "link": "Hanadate",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/hanadate-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/hanadate-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7932,7 +9311,7 @@
                 "id": 3,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -7963,7 +9342,7 @@
                 "id": 5,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -7974,7 +9353,24 @@
                     "minute": 13
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 13
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -7994,7 +9390,7 @@
                 "id": 7,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -8025,7 +9421,7 @@
                 "id": 9,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -8056,7 +9452,7 @@
                 "id": 11,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -8067,7 +9463,24 @@
                     "minute": 58
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 58
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
@@ -8087,7 +9500,7 @@
                 "id": 13,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -8118,7 +9531,7 @@
                 "id": 15,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -8129,7 +9542,24 @@
                     "minute": 48
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 48
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
@@ -8149,7 +9579,7 @@
                 "id": 17,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -8180,7 +9610,7 @@
                 "id": 19,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -8211,7 +9641,7 @@
                 "id": 21,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "イオン前沢",
@@ -8222,7 +9652,24 @@
                     "minute": 48
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": {
+                    "ja": "中尊寺",
+                    "en": "Chusonji-Temple"
+                },
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 48
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
@@ -8242,7 +9689,7 @@
                 "id": 23,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -8273,7 +9720,7 @@
                 "id": 25,
                 "via": {
                     "ja": "中尊寺",
-                    "en": "Chusonji"
+                    "en": "Chusonji-Temple"
                 },
                 "arrival": {
                     "ja": "瀬原",
@@ -8306,7 +9753,7 @@
         "id": 21, 
         "name": { 
             "ja": "中尊寺", 
-            "en": "Chusonji" 
+            "en": "Chusonji-Temple" 
         }, 
         "link": "Chusonji",
         "pictures": [
@@ -8333,6 +9780,7 @@
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -8402,7 +9850,21 @@
                     "minute": 14
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 14
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -8486,7 +9948,21 @@
                     "minute": 59
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 11,
+                    "minute": 59
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
@@ -8542,7 +10018,21 @@
                     "minute": 49
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 49
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
@@ -8626,7 +10116,21 @@
                     "minute": 49
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 49
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
@@ -8707,11 +10211,31 @@
             "en": "Koromokawa-Bashi" 
         }, 
         "link": "KoromokawaBashi",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/koromokawabashi-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/koromokawabashi-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -8781,7 +10305,21 @@
                     "minute": 16
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 16
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -8865,7 +10403,21 @@
                     "minute": 1
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 11,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 1
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 12,
@@ -8921,7 +10473,21 @@
                     "minute": 51
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 15,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 51
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 16,
@@ -9005,7 +10571,21 @@
                     "minute": 51
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 21,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 51
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 22,
@@ -9086,11 +10666,31 @@
             "en": "Sewara" 
         }, 
         "link": "Sewara",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/sewara-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/sewara-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -9132,7 +10732,21 @@
                     "minute": 18
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 18
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -9188,7 +10802,21 @@
                     "minute": 3
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 3
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -9230,7 +10858,21 @@
                     "minute": 53
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 10,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 53
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 11,
@@ -9286,7 +10928,21 @@
                     "minute": 53
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 14,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 53
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 15,
@@ -9339,11 +10995,31 @@
             "en": "Tokusawa" 
         }, 
         "link": "Tokusawa",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/tokusawa-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/tokusawa-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -9357,7 +11033,21 @@
                     "minute": 20
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 20
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -9385,7 +11075,21 @@
                     "minute": 5
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 5
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -9413,7 +11117,21 @@
                     "minute": 55
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 55
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -9441,7 +11159,21 @@
                     "minute": 55
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 55
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -9466,11 +11198,31 @@
             "en": "Shirotori" 
         }, 
         "link": "Shirotori",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/shirotori-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/shirotori-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -9484,7 +11236,21 @@
                     "minute": 22
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 22
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -9512,7 +11278,21 @@
                     "minute": 7
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 7
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -9540,7 +11320,21 @@
                     "minute": 57
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 57
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -9568,7 +11362,21 @@
                     "minute": 57
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 57
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -9590,14 +11398,34 @@
         "id": 26, 
         "name": { 
             "ja": "塔ヶ崎", 
-            "en": "Togasaki" 
+            "en": "Tougasaki" 
         }, 
         "link": "Togasaki",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/togasaki-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/togasaki-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -9611,7 +11439,21 @@
                     "minute": 23
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 23
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -9639,7 +11481,21 @@
                     "minute": 8
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 8
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -9667,7 +11523,21 @@
                     "minute": 58
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 58
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -9695,7 +11565,21 @@
                     "minute": 58
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 16,
+                    "minute": 58
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -9717,14 +11601,34 @@
         "id": 27, 
         "name": { 
             "ja": "丁切", 
-            "en": "Chogiri" 
+            "en": "Chougiri" 
         }, 
         "link": "Chogiri",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/chogiri-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/chogiri-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -9738,7 +11642,21 @@
                     "minute": 24
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 24
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -9766,7 +11684,21 @@
                     "minute": 9
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 9
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -9794,7 +11726,21 @@
                     "minute": 59
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 59
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -9822,7 +11768,21 @@
                     "minute": 59
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 13,
+                    "minute": 59
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -9847,11 +11807,31 @@
             "en": "Mikkamachi" 
         }, 
         "link": "Mikkamachi",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/mikkamachi-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/mikkamachi-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -9865,7 +11845,21 @@
                     "minute": 26
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 26
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -9893,7 +11887,21 @@
                     "minute": 11
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 11
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -9921,7 +11929,21 @@
                     "minute": 1
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 14,
+                    "minute": 1
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -9949,7 +11971,21 @@
                     "minute": 1
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 17,
+                    "minute": 1
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -9974,11 +12010,31 @@
             "en": "Nanokamachi" 
         }, 
         "link": "Nanokamachi",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/nanokamachi-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/nanokamachi-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -9992,7 +12048,21 @@
                     "minute": 27
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 27
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -10020,7 +12090,21 @@
                     "minute": 12
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 12
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -10048,7 +12132,21 @@
                     "minute": 2
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 14,
+                    "minute": 2
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -10076,7 +12174,21 @@
                     "minute": 2
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 17,
+                    "minute": 2
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -10101,11 +12213,31 @@
             "en": "Maesawa-Shinmachi" 
         }, 
         "link": "MaesawaShinmachi",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/maesawashinmachi-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/maesawashinmachi-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -10119,7 +12251,21 @@
                     "minute": 27
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 27
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -10147,7 +12293,21 @@
                     "minute": 12
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 12
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -10175,7 +12335,21 @@
                     "minute": 2
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 14,
+                    "minute": 2
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -10203,7 +12377,21 @@
                     "minute": 2
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 17,
+                    "minute": 2
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -10228,11 +12416,31 @@
             "en": "Nijuninmachi" 
         }, 
         "link": "Nijuninmachi",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/nijuninmachi-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/nijuninmachi-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -10246,7 +12454,21 @@
                     "minute": 28
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 28
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -10274,7 +12496,21 @@
                     "minute": 13
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 13
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -10302,7 +12538,21 @@
                     "minute": 3
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 14,
+                    "minute": 3
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -10330,7 +12580,21 @@
                     "minute": 3
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 17,
+                    "minute": 3
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -10352,14 +12616,34 @@
         "id": 32, 
         "name": { 
             "ja": "母体口", 
-            "en": "Botaiguchi" 
+            "en": "Motaiguchi" 
         }, 
         "link": "Botaiguchi",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/motaiguchi-1.jpg",
+                "tab": {
+                    "ja": "母体口停留所",
+                    "en": "Motaiguchi stop"
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/motaiguchi-2.jpg",
+                "tab": {
+                    "ja": "母体口停留所",
+                    "en": "Motaiguchi stop"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -10373,7 +12657,21 @@
                     "minute": 29
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 29
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -10401,7 +12699,21 @@
                     "minute": 14
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 14
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -10429,7 +12741,21 @@
                     "minute": 4
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 14,
+                    "minute": 4
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -10457,7 +12783,21 @@
                     "minute": 4
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 17,
+                    "minute": 4
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -10479,14 +12819,34 @@
         "id": 33, 
         "name": { 
             "ja": "前沢保育所前", 
-            "en": "Maesawa-Hoikusho-Mae" 
+            "en": "Maesawa-Hoikujyo-Mae" 
         }, 
         "link": "MaesawaHoikushoMae",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/maesawahoikushomae-up.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            },
+            {
+                "id": 2,
+                "type": "image",
+                "path": "/stopImg/maesawahoikushomae-down.jpg",
+                "tab": {
+                    "ja": "中尊寺・イオン前沢 方面",
+                    "en": "For Chusonji-Temple, Aeon Maesawa"
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": true,
         "stopTime": [
             {
                 "id": 1,
@@ -10500,7 +12860,21 @@
                     "minute": 30
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 1,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 8,
+                    "minute": 30
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 2,
@@ -10528,7 +12902,21 @@
                     "minute": 15
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 3,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 12,
+                    "minute": 15
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 4,
@@ -10556,7 +12944,21 @@
                     "minute": 5
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 5,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 14,
+                    "minute": 5
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 6,
@@ -10584,7 +12986,21 @@
                     "minute": 5
                 },
                 "direction": "down",
-                "schedule": "daily"
+                "schedule": "weekday"
+            },
+            {
+                "id": 7,
+                "via": null,
+                "arrival": {
+                    "ja": "イオン前沢",
+                    "en": "Aeon Maesawa"
+                },
+                "time": {
+                    "hour": 17,
+                    "minute": 5
+                },
+                "direction": "down",
+                "schedule": "weekend"
             },
             {
                 "id": 8,
@@ -10609,11 +13025,22 @@
             "en": "Aeon Maesawa" 
         }, 
         "link": "AeonMaesawa",
-        "pictures": null,
+        "pictures": [
+            {
+                "id": 1,
+                "type": "image",
+                "path": "/stopImg/aeonmaesawa.jpg",
+                "tab": {
+                    "ja": "一関駅前 方面",
+                    "en": "For Ichinoseki sta."
+                }
+            }
+        ],
         "comment": {
             "ja" : null,
             "en" : null
         },
+        "sort": false,
         "stopTime": [
             {
                 "id": 1,

@@ -3,12 +3,12 @@ import ichihira from "../../../data/ichihiraStops.json"
 
 import lineData from "../../../data/lines.json"
 import { useRoute } from 'vue-router';
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 
 const timeData = {ichihira}
 
-const selectedSchedule = ref('daily');//初期値を設定
-const selectedDirection = ref('both');  // デフォルトで上り・下り両方を表示
+const selectedSchedule = ref('weekend');//初期値を設定
+const selectedDirection = ref('downward');  // デフォルトで上りを表示
 
 const route = useRoute();
 
@@ -40,6 +40,14 @@ const busLineName = () => {
   return currentLine ? currentLine.name[langPath()] : "";
 };
 
+onMounted(() => {
+    timeData[linePath()].forEach((data) => { //forEachでオブジェクトを直接扱う
+        if (data.link === stopPath() && data.sort === false) {
+            selectedDirection.value = 'both';
+        }
+    });
+});
+
 </script>
 <template>
     <div id="busStopName">
@@ -51,31 +59,32 @@ const busLineName = () => {
     
         <select id="youbi" v-model="selectedSchedule" class="no-select">
                         <!-- valueの平日と土日祝日とが逆なのは仕様なので注意 -->
-            <option value="daily">{{ langPath() === "ja" ? "すべて" : "Everyday" }}</option>
+            <!-- <option value="daily">{{ langPath() === "ja" ? "すべて" : "Everyday" }}</option> -->
             <option value="weekend">{{ langPath() === "ja" ? "平日" : "Weekday" }}</option>
             <option value="weekday">{{ langPath() === "ja" ? "土日祝日" : "Weekend" }}</option>
         </select>
-
-        <div class="label-container">
-            <label class="no-select oneRow">
-                <input type="radio" v-model="selectedDirection" value="both">
-                {{ langPath() === "ja" ? "両方" : "both" }} 
-            </label>
-            <label class="no-select oneRow">
-                <input type="radio" v-model="selectedDirection" value="upward">
-                {{ `${langPath() === "ja" ? "" : "To "}${ lineData[0].nobori[langPath()] }${ langPath() === "ja" ? "方面" : "" }` }}
-            </label>
-            <label class="no-select oneRow">
-                <input type="radio" v-model="selectedDirection" value="downward">
-                {{ `${langPath() === "ja" ? "" : "To "}${ lineData[0].kudari[langPath()] }${ langPath() === "ja" ? "方面" : "" }` }}
-            </label>
+        <div v-for="data in timeData[linePath()]">
+            <div v-if="data.link === stopPath() && data.sort" class="label-container">
+                <!-- <label class="no-select oneRow">
+                    <input type="radio" v-model="selectedDirection" value="both">
+                    {{ langPath() === "ja" ? "両方" : "both" }} 
+                </label> -->
+                <label class="no-select oneRow">
+                    <input type="radio" v-model="selectedDirection" value="downward">
+                    {{ `${langPath() === "ja" ? "" : "To "}${ lineData[0].kudari[langPath()] }${ langPath() === "ja" ? "方面" : "" }` }}
+                </label>
+                <label class="no-select oneRow">
+                    <input type="radio" v-model="selectedDirection" value="upward">
+                    {{ `${langPath() === "ja" ? "" : "To "}${ lineData[0].nobori[langPath()] }${ langPath() === "ja" ? "方面" : "" }` }}
+                </label>
+            </div>
+            <p v-else></p>
         </div>
-
     </div>
     <div id="Box">
   <ul class="time">
     <li class="timeBox" v-for="data in timeData[linePath()]" :key="data.id">
-      <div v-for="stopTime in data.stopTime" :key="stopTime.id">
+      <div v-for="stopTime in (index, data.stopTime)" :key="stopTime.index">
         <RouterLink
                         v-if="data.link === stopPath() && 
             (selectedSchedule === 'daily' || selectedSchedule !== `${stopTime.schedule}`) && 

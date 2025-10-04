@@ -1,25 +1,4 @@
-<template>
-    <div id="search-container">
-      <input type="text" v-model="keyword" id="searchInput" placeholder="Search">
-      <ul id="itemList">
-        <li v-for="stop in stopsData" :key="stop.stops">
-          <ul>
-            <li v-for="line in filteredLines(stop)" :key="line.id">
-              <RouterLink :to="stop.stops + '/' + line.pas" class="rout">
-                <p class="en">{{ line.pas }}</p>
-                <p class="ja">{{ line.name }}</p>
-              </RouterLink>
-            </li>
-          </ul>
-        </li>
-        <li id="noResult" :class="{'search-box-none': keyword === ''}">
-          <p style="color: black;">見つかりませんか？スペルをお確かめください。<br/>Can't find it? Check your spelling.</p>
-        </li>
-      </ul>
-    </div>
-  </template>
-  
-  <script>
+<script>
   import search from '../data/search.json'
   export default {
     data() {
@@ -43,8 +22,28 @@
       }
     }
   };
-  </script>
-  
+</script>
+
+<template>
+  <div id="search-container">
+    <input type="text" v-model="keyword" id="searchInput" placeholder="Search">
+    <ul id="itemList">
+      <li v-for="stop in stopsData" :key="stop.stops">
+        <ul>
+          <li v-for="line in filteredLines(stop)" :key="line.id">
+            <RouterLink :to="stop.stops + '/' + line.pas" class="rout">
+              <p class="en">{{ line.nameen }}</p>
+              <p class="ja">{{ line.name }}</p>
+            </RouterLink>
+          </li>
+        </ul>
+      </li>
+      <li id="noResult" :class="{'search-box-none': keyword === ''}">
+        <p style="color: black;">見つかりませんか？スペルをお確かめください。<br/>Can't find it? Check your spelling.</p>
+      </li>
+    </ul>
+  </div>
+</template>
     
 <style>
 .search-box-none {

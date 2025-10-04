@@ -2,19 +2,17 @@
 
 今回使用されるvueのversionは３です。
 
-以下は推奨するIDEの設定です。（vue.js公式より
-
 推奨エディターはMicrosoftのVSCodeです。そこでVolarを調べて拡張機能としてインストールします。Veturは無効化もしくはインストールしないでください。
 
 ##まずはプロジェクトディレクトリに移動します。
 
 ```sh
-cd <YourProjectDirectory>
+cd ~/Downloads/Best-Traveler-Mini
 ```
 
 ## 起動するためのコマンド
 
-### まずは必要なパッケージをインストールします。　
+### まずは必要なパッケージをインストールします。　ネットワーク接続が必要です。
 
 ```sh
 npm install
