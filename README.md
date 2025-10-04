@@ -7,7 +7,7 @@
 ##まずはプロジェクトディレクトリに移動します。
 
 ```sh
-cd ~/Downloads/Best-Traveler-Mini
+cd ~/Downloads/Best-Traveler
 ```
 
 ## 起動するためのコマンド
